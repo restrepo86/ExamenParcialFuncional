@@ -1,5 +1,5 @@
 package co.com.banking.services
 
-case class BalanceInquiry(residue: BigDecimal)
+case class BalanceInquiry(residue: Double)
 
 

@@ -6,13 +6,11 @@ import co.com.banking.services.{BalanceInquiry, TypeAccountT}
 
 case class TransactionSupport (
 
-                                ticketNumber: Integer,
+                                ticketNumber: Int,
                                 dateTransaction: Date,
                                 typeTransaction: String,
-                                residue: BalanceInquiry,
-                                amount: Double,
-                                account: Account[TypeAccountT],
-                                personalAccount: PersonalAccount
+                                BalanceInquiry: BalanceInquiry,
+                                amount: Double
 
                               )
 
