@@ -14,4 +14,5 @@ class BankingService extends Transaction{
   override def debit(amount: Double, personalAccount: PersonalAccount): TransactionSupport = ???
 
   override def transfer(amount: Double, personalAccount: PersonalAccount, account: Account[TypeAccountT]): TransactionSupport = ???
+
 }

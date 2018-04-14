@@ -2,7 +2,7 @@ package co.com.banking.entities
 
 import java.util.Date
 
-import co.com.banking.services.BalanceInquiry
+import co.com.banking.services.{BalanceInquiry, TypeAccountT}
 
 case class TransactionSupport (
 
@@ -11,7 +11,7 @@ case class TransactionSupport (
                                 typeTransaction: String,
                                 residue: BalanceInquiry,
                                 amount: Double,
-                                account: Account,
+                                account: Account[TypeAccountT],
                                 personalAccount: PersonalAccount
 
                               )
